@@ -1,0 +1,366 @@
+.login .logo {
+  background: url("../assets/images/logo.png") 50% / cover no-repeat;
+  margin-bottom: 36px;
+  width: 284.2px;
+  height: 64px;
+}
+
+.login .frame {
+  opacity: 0.1;
+  position: absolute;
+  left: -30px;
+  top: -92px;
+  width: 416.6px;
+  height: 649.3px;
+}
+.login .the-all-in-one-cash-manangement-system {
+  position: relative;
+  margin-bottom: 47px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(
+    --headers-header-4-h-4-semi-bold-font-family,
+    "Mona Sans",
+    "Roboto Condensed"
+  );
+  font-weight: var(--headers-header-4-h-4-semi-bold-font-weight, 600);
+  font-size: var(--headers-header-4-h-4-semi-bold-font-size, 22px);
+  line-height: var(--headers-header-4-h-4-semi-bold-line-height, 1.2);
+  color: #ffffff;
+}
+.login .tellerslip {
+  background: url("../assets/images/tellerslip.png") 50% / cover no-repeat;
+  position: absolute;
+  top: 30px;
+  right: -5px;
+  width: 170px;
+  height: 120px;
+  border-radius: 50%; /* This will make the image a perfect circle */
+  transform: scaleY(
+    2
+  ); /* This will stretch the circle vertically to make it an oval */
+}
+.login .frame-9756 {
+  border-radius: 10000px;
+  background: #ffffff;
+  position: relative;
+  margin: 0 4px 107px 0;
+  width: 140px;
+  height: 185px;
+}
+.login .cardpay {
+  background: url("../assets/images/cardpay.png") 50% / cover no-repeat;
+  position: absolute;
+  left: -5px;
+  bottom: 35px;
+  width: 170px;
+  height: 120px;
+  border-radius: 50%; /* This will make the image a perfect circle */
+  transform: scaleY(
+    2
+  ); /* This will stretch the circle vertically to make it an oval */
+}
+.login .frame-9757 {
+  border-radius: 10000px;
+  background: #ffffff;
+  position: relative;
+  margin-top: 107px;
+  width: 140px;
+  height: 185px;
+}
+.login .container {
+  position: relative;
+  margin-left: 3px;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  width: 284px;
+  box-sizing: border-box;
+}
+.login .frame-97501 {
+  background: var(--primary-p-300, #076a39);
+  position: relative;
+  margin-right: 24px;
+  display: flex;
+  flex-direction: column;
+  padding: 39px 0 35px 34px;
+  width: 362px;
+  box-sizing: border-box;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+.login .welcome-to-pillarsalt {
+  overflow-wrap: break-word;
+  font-family: var(
+    --headers-header-4-h-4-semi-bold-font-family,
+    "Mona Sans",
+    "Roboto Condensed"
+  );
+  font-weight: var(--headers-header-4-h-4-semi-bold-font-weight, 600);
+  font-size: var(--headers-header-4-h-4-semi-bold-font-size, 22px);
+  line-height: var(--headers-header-4-h-4-semi-bold-line-height, 1.2);
+  color: #000000;
+}
+.login .frame-9755 {
+  margin-bottom: 36px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.login .label {
+  margin-bottom: 4px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(
+    --body-base-base-regular-font-family,
+    "Mona Sans",
+    "Roboto Condensed"
+  );
+  font-weight: var(--body-base-base-regular-font-weight, 400);
+  font-size: var(--body-base-base-regular-font-size, 14px);
+  line-height: var(--body-base-base-regular-line-height, 1.4);
+  color: var(--neutralneutral-400, #393b3a);
+}
+.login .placeholder-1 {
+  overflow-wrap: break-word;
+  margin-right: 10px;
+  width: 380.9px;
+  font-family: var(
+    --body-base-base-regular-font-family,
+    "Mona Sans",
+    "Roboto Condensed"
+  );
+  font-weight: var(--body-base-base-regular-font-weight, 400);
+  font-size: var(--body-base-base-regular-font-size, 14px);
+  line-height: var(--body-base-base-regular-line-height, 1.4);
+  color: var(--neutralneutral-200, #8d8e8e);
+}
+.login .form-fields-text-input {
+  border-radius: 6px;
+  border: 1px solid var(--neutralneutral-50, #e6e7e6);
+  background: var(--white, #ffffff);
+  padding: 11px 13px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.login .input-field {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.login .label-1 {
+  margin-bottom: 4px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(
+    --body-base-base-regular-font-family,
+    "Mona Sans",
+    "Roboto Condensed"
+  );
+  font-weight: var(--body-base-base-regular-font-weight, 400);
+  font-size: var(--body-base-base-regular-font-size, 14px);
+  line-height: var(--body-base-base-regular-line-height, 1.4);
+  color: var(--neutralneutral-400, #393b3a);
+}
+.login .placeholder-1 {
+  margin-right: 10px;
+  width: 380.9px;
+  overflow-wrap: break-word;
+  font-family: var(
+    --body-base-base-regular-font-family,
+    "Mona Sans",
+    "Roboto Condensed"
+  );
+  font-weight: var(--body-base-base-regular-font-weight, 400);
+  font-size: var(--body-base-base-regular-font-size, 14px);
+  line-height: var(--body-base-base-regular-line-height, 1.4);
+  color: var(--neutralneutral-200, #8d8e8e);
+}
+.login .vector-24 {
+  width: 22.1px;
+  height: 14.6px;
+}
+.login .icon {
+  margin: 2.7px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 22.1px;
+  height: 14.6px;
+  box-sizing: border-box;
+}
+.login .form-fields-text-input-1 {
+  border-radius: 6px;
+  border: 1px solid var(--neutralneutral-50, #e6e7e6);
+  background: var(--white, #ffffff);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 11px 13.9px 11px 13px;
+  width: 442px;
+  box-sizing: border-box;
+}
+.login .input-field-1 {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.login .button-1 {
+  overflow-wrap: break-word;
+  font-family: "Mona Sans", "Roboto Condensed";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.429;
+  color: #ffffff;
+}
+.login .button {
+  border-radius: 8px;
+  background: var(--primary-p-300, #076a39);
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 14px 6.5px 14px 0;
+  width: 442px;
+  box-sizing: border-box;
+}
+.login .submit {
+  border-radius: 8px;
+  background: var(--primary-p-300, #076a39);
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 14px 6.5px 14px 0;
+  width: 442px;
+  box-sizing: border-box;
+}
+.login .submit-txt {
+  overflow-wrap: break-word;
+  font-family: "Mona Sans", "Roboto Condensed";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.429;
+  color: #ffffff;
+}
+
+.login .forget-password {
+  margin: 0 18.5px;
+  overflow-wrap: break-word;
+  font-family: var(
+    --body-base-base-medium-font-family,
+    "Mona Sans",
+    "Roboto Condensed"
+  );
+  font-weight: var(--body-base-base-medium-font-weight, 500);
+  font-size: var(--body-base-base-medium-font-size, 14px);
+  line-height: var(--body-base-base-medium-line-height, 1.4);
+  color: var(--primary-p-300, #076a39);
+}
+.login .frame-9751 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.login .frame-9752 {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.login .frame-9754 {
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.login .policy2 {
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: var(
+    --body-small-small-regular-font-family,
+    "Mona Sans",
+    "Roboto Condensed"
+  );
+  font-weight: var(--body-small-small-regular-font-weight, 400);
+  font-size: var(--body-small-small-regular-font-size, 12px);
+  line-height: var(--body-small-small-regular-line-height, 1.4);
+  color: var(--neutralneutral-300, #5a5b5a);
+}
+
+.policy1 {
+  font-family: "Mona Sans", "Roboto Condensed";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.333;
+  color: var(--primary-p-300, #076a39);
+}
+.login .frame-1000004925 {
+  margin: 32px 0 55px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.login .frame-9750 {
+  box-shadow: var(--sahdow-2, 0px 0px 34px 0px rgba(102, 102, 102, 0.15));
+  border-radius: 12px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+  padding-right: 24px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.login {
+  background: var(--background, #fafdfb);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 230px 0 229px 0;
+  width: 1440px;
+  box-sizing: border-box;
+}
+
+.password-input-container {
+  position: relative;
+}
+
+.toggle-password {
+  position: absolute;
+  top: 50%;
+  right: 10px; /* Adjust this value to position the icon as needed */
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.eye-icon {
+  width: 20px; /* Adjust the size of the icon as needed */
+  height: auto;
+}
+.toast {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  display: none;
+}
+
+.toast.show {
+  display: block;
+}

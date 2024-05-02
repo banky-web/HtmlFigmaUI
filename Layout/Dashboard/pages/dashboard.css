@@ -1,0 +1,132 @@
+.dashboard.image-9 {
+  /* background: url("../assets/images/image9.png") 50% / cover no-repeat; */
+  margin: 3px 0;
+  width: 150px;
+  height: 32px;
+}
+.complogo {
+  width: 150px;
+}
+.navbar-nav .pillarsalt {
+  font-size: 30px; /* Change the font size as needed */
+  /* You can adjust other styles here */
+  pointer-events: none; /* Disable pointer events */
+  text-decoration: none; /* Remove underline */
+  cursor: default; /* Use the default cursor */
+  margin-left: auto;
+}
+
+.user-profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ccc; /* Change to your desired color */
+  border-radius: 20px;
+  background: var(
+    --avatar-tom-cook,
+    url("../assets/images/avatar.jpeg") 50% / cover no-repeat
+  );
+}
+
+.notification-bell {
+  margin-right: 10px;
+  color: #c5c6ca;
+}
+.setting {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #076a39;
+}
+
+.dropdown-toggle {
+  text-decoration: none;
+  margin-left: 15px;
+  color: #393b3a;
+  padding: auto;
+}
+/* Adjust dropdown position */
+.dropdown-menu {
+  right: 0;
+  left: auto;
+}
+#sidebarMenu {
+  background-color: darkgray;
+}
+.nav-item {
+  margin: 5px;
+}
+.nav-item a {
+  text-decoration: none;
+  margin-left: 15px;
+  color: #393b3a;
+  padding: auto;
+}
+.nav-item a:hover,
+.nav-item a:active {
+  background-color: #076a39;
+  color: #fff;
+  text-decoration: none;
+}
+.customcard1 {
+  background-color: #27658d;
+  color: #ffffff;
+  border-radius: 5px;
+  width: auto;
+  height: 180px;
+  position: relative;
+}
+.cadfigur {
+  overflow-wrap: break-word;
+  font-family: "Mona Sans";
+  font-weight: 700;
+  font-size: 32px;
+}
+.cadtitle {
+  margin-bottom: 16px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--bodyLargeLargeRegular-font-family, "Mona Sans");
+  font-weight: var(--bodyLargeLargeRegular-font-weight, 400);
+  font-size: var(--bodyLargeLargeRegular-font-size, 16px);
+  line-height: var(--bodyLargeLargeRegular-line-height, 1.4);
+}
+.view-more {
+  position: absolute; /* Position absolute for positioning */
+  bottom: 10px; /* Distance from the bottom */
+  left: 10px;
+  color: #ffffff;
+  border: 1px solid transparent; /* Transparent border */
+  padding: 5px; /* Padding for the section */
+}
+.arrow-icon a {
+  position: absolute; /* Position absolute for positioning */
+  bottom: 10px; /* Distance from the bottom */
+  right: 10px; /* Position at the right */
+  color: #ffffff;
+}
+
+.view-more a {
+  color: #fff; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+.customcard2 {
+  background-color: #2b9872;
+  color: #ffffff;
+  border-radius: 5px;
+  width: auto;
+  height: 180px;
+  position: relative;
+}
+.customcard3 {
+  background-color: #078d85;
+  color: #ffffff;
+  border-radius: 5px;
+  width: auto;
+  height: 180px;
+  position: relative;
+}
+.viewmorediv {
+  border-top: 2px solid transparent; /* Transparent border */
+  margin-top: 40px;
+  border-color: #2c393315;
+}

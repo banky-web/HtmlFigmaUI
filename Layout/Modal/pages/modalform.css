@@ -1,0 +1,42 @@
+.modal-header {
+  border-bottom: none !important;
+}
+.modal-footer {
+  margin-bottom: 20px; /* Adjust margin for footer */
+  border-top: none !important;
+  padding-bottom: 20px;
+}
+.modal-dialog {
+  position: fixed;
+  right: 20px; /* Adjust this value to move it horizontally */
+  width: 300px; /* Adjust the width as needed */
+  max-height: auto; /* Adjust the max height as needed */
+  float: right;
+}
+
+.modal-content {
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+/*.modalformdivbtn {
+  position: absolute; /* Position absolute for positioning */
+/* left: 30px; /* Adjust this value to move the button to the left */
+/* bottom: 3px; /* Adjust this value to move the button vertically */
+/*}
+*/
+
+.modalformbutton {
+  width: 150px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.modalformbody {
+  position: relative;
+}
+.dropdown {
+  margin-bottom: 60px; /* Adjust this value to provide space for the dropdown */
+}

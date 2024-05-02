@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login</title>
+  <link rel="stylesheet" href="login.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <div class="toast bg-danger" id="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-body text-white">
+
+      <span><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Incorrect username or password. Please try
+        again.</span>
+    </div>
+  </div>
+  <div class="login container">
+    <div class="logo">
+    </div>
+    <div class="frame-9750">
+      <div class="frame-97501">
+        <div class="the-all-in-one-cash-manangement-system">
+          The All-in-one<br />
+          Cash Manangement System
+        </div>
+        <div class="container">
+          <div class="frame-9756">
+            <div class="tellerslip">
+            </div>
+          </div>
+          <div class="frame-9757">
+            <div class="cardpay">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="frame-1000004925">
+        <div class="frame-9754">
+          <div class="frame-9755">
+            <span class="welcome-to-pillarsalt">
+              Welcome To Pillarsalt
+            </span>
+          </div>
+          <div class="frame-9752">
+            <form action="" class="needs-validation" id="loginForm" onsubmit="return validateForm()">
+
+              <div class="input-field-1 mb-3 mt-3">
+                <div>
+                  <label for="username" class="form-label"> Username</label>
+                  <input type="text" class="form-fields-text-input-1 form-control" name="username"
+                    placeholder="Please enter username" required>
+                  <div class="invalid-feedback">Please fill out this field.</div>
+                  <span id="usernameErrorMessage" class="text-danger d-none">No such account is found. Please try
+                    again</span>
+
+                </div>
+
+                <div class="mb-3">
+                  <label for="password" class="form-label"> Password</label>
+                  <div class="password-input-container">
+                    <input type="password" class="form-fields-text-input-1 form-control" name="password"
+                      placeholder="Please enter password" required />
+                    <button type="button" class="toggle-password">
+                      <img class="eye-icon" src="../assets/vectors/vector_x2.svg" alt="Toggle Password Visibility">
+                    </button>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="frame-9751">
+
+                <input type="submit" class="button btn btn-success" value="Log In" />
+                <span class="forget-password">
+                  Forget Password?
+                </span>
+              </div>
+            </form>
+          </div>
+        </div>
+        <p class="policy2"> By Logging in, I agreed to the Pillarsalt
+          Privacy <span class="policy1">Protection Policy</span> and
+          <span class="policy1">Terms of Service</span>
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="loginscript.js"></script>
+</body>
+
+</html>

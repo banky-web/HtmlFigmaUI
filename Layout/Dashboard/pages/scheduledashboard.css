@@ -1,0 +1,241 @@
+.dashboard.image-9 {
+  /* background: url("../assets/images/image9.png") 50% / cover no-repeat; */
+  margin: 3px 0;
+  width: 150px;
+  height: 32px;
+}
+.complogo {
+  width: 150px;
+}
+.navbar-nav .pillarsalt {
+  font-size: 30px; /* Change the font size as needed */
+  /* You can adjust other styles here */
+  pointer-events: none; /* Disable pointer events */
+  text-decoration: none; /* Remove underline */
+  cursor: default; /* Use the default cursor */
+  margin-left: auto;
+}
+
+.user-profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ccc; /* Change to your desired color */
+  border-radius: 20px;
+  background: var(
+    --avatar-tom-cook,
+    url("../assets/images/avatar.jpeg") 50% / cover no-repeat
+  );
+}
+
+.notification-bell {
+  margin-right: 10px;
+  color: #c5c6ca;
+}
+.setting {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #076a39;
+}
+
+.dropdown-toggle {
+  text-decoration: none;
+  margin-left: 15px;
+  color: #393b3a;
+  padding: auto;
+}
+/* Adjust dropdown position */
+.dropdown-menu {
+  right: 0;
+  left: auto;
+}
+#sidebarMenu {
+  background-color: darkgray;
+  height: 640px;
+}
+.nav-item {
+  margin: 5px;
+}
+.nav-item a {
+  text-decoration: none;
+  margin-left: 15px;
+  color: #393b3a;
+  padding: auto;
+}
+.nav-item a:hover,
+.nav-item a:active {
+  background-color: #076a39;
+  color: #fff;
+  text-decoration: none;
+}
+
+.cadfigur {
+  overflow-wrap: break-word;
+  font-family: "Mona Sans";
+  font-weight: 700;
+  font-size: 32px;
+}
+.cadtitle {
+  margin-bottom: 16px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--bodyLargeLargeRegular-font-family, "Mona Sans");
+  font-weight: var(--bodyLargeLargeRegular-font-weight, 200);
+  font-size: var(--bodyLargeLargeRegular-font-size, 20px);
+  line-height: var(--bodyLargeLargeRegular-line-height, 1.4);
+}
+
+.view-more {
+  position: absolute; /* Position absolute for positioning */
+  bottom: 10px; /* Distance from the bottom */
+  left: 10px;
+  color: #ffffff;
+  border: 1px solid transparent; /* Transparent border */
+  padding: 5px; /* Padding for the section */
+}
+.arrow-icon a {
+  position: absolute; /* Position absolute for positioning */
+  bottom: 10px; /* Distance from the bottom */
+  right: 10px; /* Position at the right */
+  color: #ffffff;
+}
+
+.view-more a {
+  color: #fff; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+.customcard1 {
+  background-color: #155681;
+  color: #ffffff;
+  border-radius: 5px;
+  width: auto;
+  height: 180px;
+  position: relative;
+}
+.customcard2 {
+  background-color: #078d85;
+  color: #ffffff;
+  border-radius: 5px;
+  width: auto;
+  height: 180px;
+  position: relative;
+}
+.customcard3 {
+  background-color: #882413f4;
+  color: #ffffff;
+  border-radius: 5px;
+  width: auto;
+  height: 180px;
+  position: relative;
+}
+.viewmorediv {
+  border-top: 2px solid transparent; /* Transparent border */
+  margin-top: 40px;
+  border-color: #2c393315;
+  box-shadow: #ccc;
+}
+
+.advertdiv {
+  margin: 5px;
+}
+.rightarrow a,
+.leftarrow a {
+  float: right;
+  margin-left: 3px;
+  padding-left: 2px;
+  color: #fff;
+  background-color: #ccc;
+  border-radius: 5px;
+  width: 16px;
+}
+.rightarrow a.active {
+  background-color: #076a39;
+}
+
+.rightarrow a:hover,
+.leftarrow a:hover,
+.rightarrow a:focus,
+.leftarrow a:focus {
+  background-color: #076a39;
+  color: #fff;
+  border-radius: 5px;
+  width: 20px;
+  text-decoration: none;
+}
+
+.advertview-more {
+  position: absolute; /* Position absolute for positioning */
+  bottom: 10px; /* Distance from the bottom */
+  left: 10px;
+  color: #ffffff;
+  border: 1px solid transparent; /* Transparent border */
+  padding: 5px; /* Padding for the section */
+}
+.bidbtn {
+  position: absolute; /* Position absolute for positioning */
+  bottom: 10px; /* Distance from the bottom */
+  right: 10px; /* Position at the right */
+  color: #ffffff;
+}
+.banktitle {
+  position: absolute; /* Position absolute for positioning */
+  top: 20px; /* Distance from the bottom */
+  right: 150px;
+  float: right;
+}
+
+.avdertview-more a {
+  color: #393b3a;
+  text-decoration: none; /* Remove underline */
+}
+
+.advertcard1 {
+  background-color: #fff;
+  border-radius: 5px;
+  width: auto;
+  height: 180px;
+  position: relative;
+}
+.advertcard2 {
+  background-color: #fff;
+  border-radius: 5px;
+  width: auto;
+  height: 180px;
+  position: relative;
+}
+.advertcard3 {
+  background-color: #fff;
+  border-radius: 5px;
+  width: auto;
+  height: 180px;
+  position: relative;
+}
+.adviewmorediv {
+  margin-top: 40px;
+}
+.adcadfigur {
+  overflow-wrap: break-word;
+  font-family: "Mona Sans";
+  font-weight: 700;
+  font-size: 32px;
+}
+.adcadtitle {
+  margin-bottom: 16px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--bodyLargeLargeRegular-font-family, "Mona Sans");
+  font-weight: var(--bodyLargeLargeRegular-font-weight, 200);
+  font-size: var(--bodyLargeLargeRegular-font-size, 20px);
+  line-height: var(--bodyLargeLargeRegular-line-height, 1.4);
+}
+.bank-profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ccc; /* Change to your desired color */
+  border-radius: 20px;
+  background: var(
+    --avatar-tom-cook,
+    url("../assets/images/image8.png") 50% / cover no-repeat
+  );
+}

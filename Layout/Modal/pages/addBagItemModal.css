@@ -1,0 +1,29 @@
+.amountTag {
+  font-size: large;
+  color: forestgreen;
+}
+.bagsavebtn {
+  width: 460px;
+}
+.modal-footer {
+  justify-content: center !important;
+}
+.modal-dialog {
+  position: fixed;
+  right: 20px; /* Adjust this value to move it horizontally */
+  width: 300px; /* Adjust the width as needed */
+  max-height: auto; /* Adjust the max height as needed */
+  float: right;
+}
+
+#cAmount {
+  float: right;
+}
+#tAmount {
+  float: right;
+}
+
+.totalTag {
+  font-size: large;
+  color: forestgreen;
+}

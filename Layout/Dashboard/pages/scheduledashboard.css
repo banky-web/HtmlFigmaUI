@@ -188,6 +188,25 @@
   color: #393b3a;
   text-decoration: none; /* Remove underline */
 }
+/* Style for the background icon */
+.icon-background {
+  width: 80px;
+  height: 80px;
+  display: block;
+  float: right;
+  padding-top: 10px;
+  padding-right: 15px;
+  margin-bottom: 15px;
+  font-size: 35px;
+  line-height: 35px;
+
+  margin-right: 20px;
+  font-size: 110px;
+  line-height: 110px;
+
+  color: #fff;
+  opacity: 0.1;
+}
 
 .advertcard1 {
   background-color: #fff;

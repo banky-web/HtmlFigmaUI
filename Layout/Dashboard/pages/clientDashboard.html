@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Dashboard</title>
-    <link rel="stylesheet" href="scheduledashboard.css" />
+    <link rel="stylesheet" href="clientDashboard.css" />
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
@@ -77,17 +77,22 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">
-                                <i class="fa-solid fa-vault"></i>
-                                Vault
+                                <i class="fa fa-users" aria-hidden="true"></i>
+                                Client Management
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">
-                                <i class="fa-solid fa-money-bill"></i>
-                                Cash
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                User Management
                             </a>
                         </li>
-
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-desktop" aria-hidden="true"></i>
+                                Device Management
+                            </a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">
                                 <i class="fa fa-id-badge" aria-hidden="true"></i>
@@ -100,7 +105,12 @@
                                 Report
                             </a>
                         </li>
-
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa-solid fa-stamp"></i>
+                                Audit Tray
+                            </a>
+                        </li>
                         <!-- Add more sidebar items as needed -->
                     </ul>
                 </div>
@@ -109,7 +119,7 @@
             <div class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
                 <div
                     class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                    <h1 class="h2">Dashboard</h1>
+                    <h1 class="h2">Total Numbers of Client </h1>
 
                 </div>
                 <div class="row">
@@ -119,10 +129,10 @@
                                 <!-- Container for the icon -->
                                 <div class="icon-container">
                                     <!-- Font Awesome icon -->
-                                    <i class="fa-solid fa-calendar-days icon-background"></i>
+                                    <i class="fa-solid fa-bus icon-background"></i>
                                 </div>
-                                <h5 class="card-title cadtitle">Schedule</h5>
-                                <p class="card-text cadfigur">281</p>
+                                <h5 class="card-title cadtitle">CIT</h5>
+                                <p class="card-text cadfigur">200</p>
                                 <div class="viewmorediv">
                                     <div class="view-more">
                                         <a href="#">View More </a>
@@ -140,10 +150,10 @@
                                 <!-- Container for the icon -->
                                 <div class="icon-container">
                                     <!-- Font Awesome icon -->
-                                    <i class="fa-solid fa-stamp icon-background"></i>
+                                    <i class="fa-solid fa-building-columns icon-background"></i>
                                 </div>
-                                <h5 class="card-title cadtitle">Awaiting Approval</h5>
-                                <p class="card-text cadfigur">124</p>
+                                <h5 class="card-title cadtitle">Cash Center</h5>
+                                <p class="card-text cadfigur">74,106,003</p>
                                 <div class="viewmorediv">
                                     <div class="view-more">
                                         <a href="#">View More </a>
@@ -161,10 +171,32 @@
                                 <!-- Container for the icon -->
                                 <div class="icon-container">
                                     <!-- Font Awesome icon -->
-                                    <i class="fa-solid fa-bell icon-background"></i>
+                                    <i class="fa-solid fa-users icon-background"></i>
                                 </div>
-                                <h5 class="card-title cadtitle">Notifications</h5>
-                                <p class="card-text cadfigur">56</p>
+                                <h5 class="card-title cadtitle">Retailer User</h5>
+                                <p class="card-text cadfigur">20,000</p>
+                                <div class="viewmorediv">
+                                    <div class="view-more">
+                                        <a href="#">View More </a>
+                                    </div>
+                                    <div class="arrow-icon">
+                                        <a href="#"> <i class='far fa-arrow-alt-circle-right'></i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card mb-3 text-white">
+                            <div class="card-body customcard4 ">
+                                <!-- Container for the icon -->
+                                <div class="icon-container">
+                                    <!-- Font Awesome icon -->
+                                    <i class="fa-solid fa-vault icon-background"></i>
+                                </div>
+                                <h5 class="card-title cadtitle">Vault</h5>
+                                <p class="card-text cadfigur">200</p>
                                 <div class="viewmorediv">
                                     <div class="view-more">
                                         <a href="#">View More </a>
@@ -178,84 +210,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="advertdiv">
-                    <h4>Cash Adverts
-                        <span class="rightarrow"><a href="#" class="active"><i class="fa fa-angle-right"
-                                    aria-hidden="true"></i></a></span>
-                        <span class="leftarrow"><a href="#"><i class="fa fa-angle-left"
-                                    aria-hidden="true"></i></a></span>
 
-                    </h4>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 col-sm-6">
-                        <div class="card mb-3">
-                            <div class="card-body advertcard1 ">
-                                <!-- User profile picture -->
-                                <div class="bank-profile">
-                                </div>
-                                <h5 class="card-title adcadtitle banktitle ">
-                                    Gurantee
-                                    Trust Bank
-                                </h5>
-                                <p class="card-text adcadfigur">74,106,003.00</p>
-                                <div class="adviewmorediv">
-                                    <div class="avdertview-more">
-                                        <a href="#">View More </a>
-                                    </div>
-                                    <div class="bidbtn">
-                                        <button type="button" class="btn btn-success">Place a bid</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="card mb-3">
-                            <div class="card-body advertcard2 ">
-                                <!-- User profile picture -->
-                                <div class="bank-profile">
-                                </div>
-                                <h5 class="card-title adcadtitle banktitle ">
-                                    Gurantee
-                                    Trust Bank
-                                </h5>
-                                <p class="card-text adcadfigur">74,106,003.00</p>
-                                <div class="adviewmorediv">
-                                    <div class="avdertview-more">
-                                        <a href="#">View More </a>
-                                    </div>
-                                    <div class="bidbtn">
-                                        <button type="button" class="btn btn-success">Place a bid</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="card mb-3">
-                            <div class="card-body advertcard3 ">
-                                <!-- User profile picture -->
-                                <div class="bank-profile">
-                                </div>
-                                <div class="card-title adcadtitle banktitle d-flex">
-                                    Gurantee
-                                    Trust Bank
-                                </div>
-                                <p class="card-text adcadfigur">74,106,003.00</p>
-                                <div class="adviewmorediv">
-                                    <div class="avdertview-more">
-                                        <a href="#">View More </a>
-                                    </div>
-                                    <div class="bidbtn">
-                                        <button type="button" class="btn btn-success">Place a bid</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
             </div>
         </div>
     </div>

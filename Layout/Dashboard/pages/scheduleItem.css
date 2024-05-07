@@ -1,0 +1,145 @@
+.dashboard.image-9 {
+  /* background: url("../assets/images/image9.png") 50% / cover no-repeat; */
+  margin: 3px 0;
+  width: 150px;
+  height: 32px;
+}
+.complogo {
+  width: 150px;
+}
+.navbar-nav .pillarsalt {
+  font-size: 30px; /* Change the font size as needed */
+  /* You can adjust other styles here */
+  pointer-events: none; /* Disable pointer events */
+  text-decoration: none; /* Remove underline */
+  cursor: default; /* Use the default cursor */
+  margin-left: auto;
+}
+
+.user-profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ccc; /* Change to your desired color */
+  border-radius: 20px;
+  background: var(
+    --avatar-tom-cook,
+    url("../assets/images/avatar.jpeg") 50% / cover no-repeat
+  );
+}
+
+.notification-bell {
+  margin-right: 10px;
+  color: #c5c6ca;
+}
+.setting {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #076a39;
+}
+
+.dropdown-toggle {
+  text-decoration: none;
+  margin-left: 15px;
+  color: #393b3a;
+  padding: auto;
+}
+/* Adjust dropdown position */
+.dropdown-menu {
+  right: 0;
+  left: auto;
+}
+#sidebarMenu {
+  background-color: darkgray;
+}
+.nav-item {
+  margin: 5px;
+}
+.nav-item a {
+  text-decoration: none;
+  margin-left: 15px;
+  color: #393b3a;
+  padding: auto;
+}
+.nav-item a:hover,
+.nav-item a:active {
+  background-color: #076a39;
+  color: #fff;
+  text-decoration: none;
+}
+.clientbtn {
+  position: absolute; /* Position absolute for positioning */
+  top: 90px; /* Distance from the bottom */
+  right: 25px; /* Position at the right */
+  color: #ffffff;
+}
+.tablebtn {
+  position: absolute; /* Position absolute for positioning */
+  top: 150px; /* Distance from the bottom */
+  right: -125px; /* Position at the right */
+  color: #ffffff;
+  width: 570px;
+}
+
+.clienttable {
+  margin-top: 60px;
+}
+
+#myTable th {
+  color: green; /* Set text color to green */
+}
+#startDate {
+  margin-left: -120px;
+}
+#endDate {
+  margin-left: -120px;
+}
+#status-filter {
+  margin-left: -120px;
+}
+#export-dropdown {
+  margin-left: -120px;
+}
+
+.modal-header {
+  border-bottom: none !important;
+}
+.modal-footer {
+  margin-bottom: 20px; /* Adjust margin for footer */
+  border-top: none !important;
+  padding-bottom: 20px;
+}
+.modal-dialog {
+  position: fixed;
+  right: 20px; /* Adjust this value to move it horizontally */
+  width: 300px; /* Adjust the width as needed */
+  max-height: auto; /* Adjust the max height as needed */
+  float: right;
+}
+
+.modal-content {
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+/*.modalformdivbtn {
+  position: absolute; /* Position absolute for positioning */
+/* left: 30px; /* Adjust this value to move the button to the left */
+/* bottom: 3px; /* Adjust this value to move the button vertically */
+/*}
+*/
+
+.modalformbutton {
+  width: 300px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.modalformbody {
+  position: relative;
+}
+.dropdown {
+  margin-bottom: 60px; /* Adjust this value to provide space for the dropdown */
+}

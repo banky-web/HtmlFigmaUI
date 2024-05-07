@@ -18,36 +18,35 @@
 
 
     <div class="container mt-3">
-        <h3>Vertically Centered Modal For Disable </h3>
+        <h3>Vertically Centered Modal For Enable </h3>
         <p>Click on the button to open the modal.</p>
 
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#disabledModal">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#enabledModal">
             Open modal
         </button>
     </div>
 
     <!-- The Modal -->
-    <div class="modal" id="disabledModal">
+    <div class="modal" id="enabledModal">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
 
                 <!-- Modal Header -->
                 <div class="modal-header ">
-                    <h4 class="modal-title ">Disable Client</h4>
+                    <h4 class="modal-title ">Enable Client</h4>
                     <!-- <button type="button" class="btn-close mr-50" data-bs-dismiss="modal"></button> -->
                 </div>
 
                 <!-- Modal body -->
                 <div class="modal-body">
-                    Are you sure you want to disable this client
+                    Are you sure you want to enable this client
                 </div>
 
                 <!-- Modal footer -->
 
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary actionbutton"
-                        data-bs-dismiss="modal">Disable</button>
-                    <button type="button" class="btn btn-danger actionbutton" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-secondary actionbutton" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-success actionbutton" data-bs-dismiss="modal">Enable</button>
                 </div>
 
             </div>

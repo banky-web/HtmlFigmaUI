@@ -160,6 +160,7 @@
                                 <li><button class="dropdown-item" id="export-excel">Excel</button></li>
                                 <li><button class="dropdown-item" id="export-pdf">PDF</button></li>
                                 <li><button class="dropdown-item" id="export-print">Print</button></li>
+                                <li><button class="dropdown-item" id="delete-selected">Delete</button></li>
                             </ul>
                         </div>
                     </div>
@@ -171,6 +172,7 @@
                     <table id="myTable" class="table table-striped display">
                         <thead>
                             <tr>
+                                <th>Select</th>
                                 <th>Client Name</th>
                                 <th>Client Type</th>
                                 <th>Client Email</th>
@@ -186,7 +188,19 @@
                                 <td>No data available</td>
                                 <td></td>
                                 <td></td>
-                                <td></td>
+                                <td>
+                                    <span class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                        data-bs-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-h"
+                                            aria-hidden="true"></i></span>
+                                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#"><i class="fa fa-pencil"
+                                                    aria-hidden="true"></i> Updates</a></li>
+                                        <li><a class="dropdown-item" href="#"><i class="fa fa-shopping-bag"
+                                                    aria-hidden="true"></i> Add Bag</a></li>
+                                        <li><a class="dropdown-item text-danger" href="#"><i class="fa fa-trash"
+                                                    aria-hidden="true"></i> Delete</a></li>
+                                    </ul>
+                                </td>
                             </tr>
                             <!-- Add more rows as needed -->
                         </tbody>

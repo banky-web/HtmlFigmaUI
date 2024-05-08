@@ -88,3 +88,100 @@
 #myTable th {
   color: green; /* Set text color to green */
 }
+
+.modal-header {
+  border-bottom: none !important;
+}
+.modal-footer {
+  margin-bottom: 20px; /* Adjust margin for footer */
+  border-top: none !important;
+  padding-bottom: 20px;
+}
+/*.modal-dialog {
+  position: fixed;
+  right: 20px; /* Adjust this value to move it horizontally */
+/* width: 300px; /* Adjust the width as needed */
+/* max-height: auto; /* Adjust the max height as needed */
+/* float: right;*/
+/*}
+*/
+/*
+.modal-content {
+  padding: 20px;
+}
+ */
+
+/* Remove modal dialog positioning */
+.modal-dialog {
+  width: 300px; /* Adjust the width as needed */
+}
+
+/* Center the modal */
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-title {
+  align-items: center !important;
+  justify-content: center !important;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+
+/*.modalformdivbtn {
+  position: absolute; /* Position absolute for positioning */
+/* left: 30px; /* Adjust this value to move the button to the left */
+/* bottom: 3px; /* Adjust this value to move the button vertically */
+/*}
+*/
+
+.modalformbutton {
+  width: 190px;
+  margin-right: 130px;
+  margin-bottom: 20px;
+}
+.modalformbody {
+  position: relative;
+}
+.dropdown {
+  margin-bottom: 60px; /* Adjust this value to provide space for the dropdown */
+}
+
+/* .user-profile {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ccc; 
+  border-radius: 50px;
+  background: var(
+    --avatar-tom-cook,
+    url("../assets/images/avatar.jpeg") 50% / cover no-repeat
+  );
+} */
+.user-profil {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #ccc;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#profil-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+#profil-image-preview {
+  max-width: 100%;
+  max-height: 100%;
+}

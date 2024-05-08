@@ -107,7 +107,7 @@ $(document).ready(function () {
       });
       $("#myTable").DataTable().draw(false); // Redraw table
     } else {
-      alert("No rows selected.");
+      // alert("No rows selected.");
     }
   });
 });

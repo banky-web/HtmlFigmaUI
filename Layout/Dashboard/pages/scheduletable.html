@@ -125,8 +125,9 @@
                     class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
                     <h1 class="h2">Schedule</h1>
                     <div class="clientbtn">
-                        <button type="button" class="btn btn-success"><i class="fa-solid fa-plus"></i> Add New
-                            Schedule</button>
+                        <a type="button" href="http://127.0.0.1:5500/Layout/Dashboard/pages/scheduleItem.html"
+                            class="btn btn-success"><i class="fa-solid fa-plus"></i> Add New
+                            Schedule</a>
                     </div>
                 </div>
                 <!-- Filtering options -->
@@ -165,7 +166,34 @@
                     </div>
                 </div>
 
+                <!-- The Modal for delete schedule -->
+                <div class="modal" id="deleteScheduleModal">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
 
+                            <!-- Modal Header -->
+                            <div class="modal-header ">
+                                <h4 class="modal-title ">Delete Schedule</h4>
+                                <!-- <button type="button" class="btn-close mr-50" data-bs-dismiss="modal"></button> -->
+                            </div>
+
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                Deleting a schedule removes all data. Confirm action before proceeding.
+                            </div>
+
+                            <!-- Modal footer -->
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary actionbutton"
+                                    data-bs-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn btn-danger actionbutton"
+                                    data-bs-dismiss="modal">Delete</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
 
                 <div class="table-responsive clienttable">
                     <table id="myTable" class="table table-striped display">
@@ -184,20 +212,26 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td></td>
+                                <td><input type="checkbox"></td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
                                 <td>No data available</td>
                                 <td></td>
                                 <td></td>
+                                <td></td>
                                 <td>
-                                    <span class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
-                                        aria-expanded="false"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></span>
+                                    <span class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                        data-bs-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-h"
+                                            aria-hidden="true"></i></span>
                                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuLink">
-                                        <li><a class="dropdown-item" href="#"><i class="fa fa-pencil" aria-hidden="true"></i> Updates</a></li>
-                                        <li><a class="dropdown-item" href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i> Add Bag</a></li>
-                                        <li><a class="dropdown-item text-danger" href="#"><i class="fa fa-trash" aria-hidden="true"></i> Delete</a></li>
+
+                                        <li><a class="dropdown-item" href="#"><i class="fa fa-list-alt"
+                                                    aria-hidden="true"></i>
+                                                Items</a></li>
+                                        <li><a class="dropdown-item text-danger" data-bs-toggle="modal"
+                                                data-bs-target="#deleteScheduleModal" id="delete-selected" href="#">
+                                                <i class="fa fa-trash" aria-hidden="true"></i> Delete</a></li>
                                     </ul>
                                 </td>
                             </tr>

@@ -110,5 +110,5 @@ $(document).ready(function () {
       alert("No rows selected.");
     }
   });
-  
+
 });

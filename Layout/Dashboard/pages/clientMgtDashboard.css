@@ -51,6 +51,7 @@
 }
 #sidebarMenu {
   background-color: darkgray;
+  height: 640px;
 }
 .nav-item {
   margin: 5px;
@@ -184,4 +185,26 @@
 #profil-image-preview {
   max-width: 100%;
   max-height: 100%;
+}
+td a {
+  text-decoration: none !important;
+  color: #393b3a;
+}
+.enabled a {
+  color: rgb(35, 174, 35);
+  background-color: #0fe82542;
+  border-radius: 10px;
+  padding: 4px 11px;
+}
+.disabled a {
+  color: rgba(231, 8, 8, 0.285);
+  background-color: #dc131349;
+  border-radius: 10px;
+  padding: 4px 11px;
+}
+.modal-content {
+  margin-left: auto;
+}
+.infopics {
+  margin-left: 15px;
 }

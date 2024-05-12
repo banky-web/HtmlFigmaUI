@@ -7,11 +7,27 @@
   justify-content: center;
   font-size: 20px;
 }
+#delmodalcontent{
+    border: none; /* Remove all border lines */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
 .modal-header {
   border-bottom: none !important;
 }
+#delmodalheader{
+   border-bottom: none !important;
+}
 .modal-footer {
   margin-top: 20px; /* Adjust margin for footer */
+  border-top: none !important;
+}
+#delmodalfooter{
+   margin-top: 20px; /* Adjust margin for footer */
   border-top: none !important;
 }
 
@@ -23,5 +39,8 @@
   margin-left: 50px; /* Push "Close" button to the right */
 }
 .actionbutton {
+  width: 150px;
+}
+#delmodalactionbtn{
   width: 150px;
 }

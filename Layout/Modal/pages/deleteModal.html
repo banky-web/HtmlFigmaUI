@@ -21,32 +21,32 @@
         <h3>Vertically Centered Modal For Delete </h3>
         <p>Click on the button to open the modal.</p>
 
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#deleteModal">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#deleteclientModal">
             Open modal
         </button>
     </div>
 
-    <!-- The Modal -->
-    <div class="modal" id="deleteModal">
+    <!-- The Delete Client Modal -->
+    <div class="modal" id="deleteclientModal">
         <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
+            <div class="modal-content" id="delmodalcontent">
 
                 <!-- Modal Header -->
-                <div class="modal-header ">
-                    <h4 class="modal-title ">Delete Client</h4>
+                <div class="modal-header " id="delmodalheader">
+                    <h4 class="modal-title" id="delmodaltitle">Delete Client</h4>
                     <!-- <button type="button" class="btn-close mr-50" data-bs-dismiss="modal"></button> -->
                 </div>
 
                 <!-- Modal body -->
-                <div class="modal-body">
+                <div class="modal-body" id="delmodalbody">
                     Deleting a client removes all data. Confirm action before proceeding.
                 </div>
 
                 <!-- Modal footer -->
 
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary actionbutton" data-bs-dismiss="modal">Cancel</button>
-                    <button type="button" class="btn btn-danger actionbutton" data-bs-dismiss="modal">Enable</button>
+                <div class="modal-footer" id="delmodalfooter">
+                    <button type="button" class="btn btn-secondary actionbutton" id="delmodalactionbtn" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-danger actionbutton" id="delmodalactionbtn" data-bs-dismiss="modal">Enable</button>
                 </div>
 
             </div>

@@ -13,6 +13,13 @@
   max-height: auto; /* Adjust the max height as needed */
   float: right;
 }
+#filterdialogmodal {
+  position: fixed;
+  right: 20px; /* Adjust this value to move it horizontally */
+  width: 300px; /* Adjust the width as needed */
+  max-height: auto; /* Adjust the max height as needed */
+  float: right;
+}
 
 .modal-content {
   padding: 20px;
@@ -30,11 +37,20 @@
 */
 
 .modalformbutton {
-  width: 300px;
-  margin-right: 20px;
+  width: 225px;
+  margin-right: 2px;
+  margin-bottom: 20px;
+}
+
+#modalformbutton {
+  width: 225px;
+  margin-right: 2px;
   margin-bottom: 20px;
 }
 .modalformbody {
+  position: relative;
+}
+#modalformbody {
   position: relative;
 }
 .dropdown {

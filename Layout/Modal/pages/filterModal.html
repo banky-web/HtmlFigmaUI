@@ -22,14 +22,14 @@
         <h3>More Filter</h3>
         <p>Click on the button to open the modal.</p>
 
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myFilterModal">
             Open modal
         </button>
     </div>
 
-    <!-- The Modal -->
-    <div class="modal" id="myModal">
-        <div class="modal-dialog modal-lg">
+    <!-- The  filter Modal -->
+    <div class="modal" id="myFilterModal">
+        <div class="modal-dialog modal-lg" id="filterdialogmodal">
             <div class="modal-content">
 
                 <!-- Modal Header -->
@@ -39,7 +39,7 @@
                 </div>
 
                 <!-- Modal body -->
-                <div class="modal-body modalformbody">
+                <div class="modal-body modalformbody" id="modalformbody">
                     <form>
 
                         <div class="form-group">
@@ -79,8 +79,8 @@
                 <div class="modal-footer ">
                     <div class="modalformdivbtn">
 
-                        <button type="button" class="btn btn-success modalformbutton "
-                            data-bs-dismiss="modal">Filter</button>
+                        <button type="button" class="btn btn-success modalformbutton " data-bs-dismiss="modal"
+                            >Filter</button>
                     </div>
                 </div>
 

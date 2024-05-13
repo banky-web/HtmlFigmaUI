@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Modal with Tabs</title>
+    <link rel="stylesheet" href="cashAdvertDetailsModal.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Button to trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cashAdvertDetailsModal">
+        Open Modal
+    </button>
+
+    <!-- Modal for cash advert Details -->
+    <div class="modal fade" id="cashAdvertDetailsModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog  modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- Modal Header -->
+                    <h4 class="modal-title">Cash Advert Details</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="row">
+
+                            <div class="col-md-6">
+
+                                <form>
+                                    <div class="form-group">
+                                        <label for="name">Company ID</label>
+                                        <div class="clientInfoDetails">
+                                            <p>40182</p>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="name">Price Attached</label>
+                                        <div class="clientInfoDetails">
+                                            <p>N20,000,000</p>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="name">Created Date</label>
+                                        <div class="clientInfoDetails">
+                                            <p>24-01-2024 10:00 PM</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="name">Location</label>
+                                        <div class="clientInfoDetails">
+                                            <p>GTBank, Ojuelegba</p>
+                                        </div>
+                                    </div>
+
+
+                                </form>
+
+
+                            </div>
+                            <div class="col-md-6">
+                                <form>
+
+                                    <div class="form-group">
+                                        <label for="name">Amount</label>
+                                        <div class="clientInfoDetails">
+                                            <p>N150,000,000</p>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="name">Created By</label>
+                                        <div class="clientInfoDetails" id="active">
+                                            <p class="mr-2">Active</p>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="name">Created By</label>
+                                        <div class="clientInfoDetails">
+                                            <p>Dele.Abiola@codeprosol.com</p>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="name">Description</label>
+                                        <div class="clientInfoDetails">
+                                            <p>All mint are 1000 each and 500</p>
+                                        </div>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+                        <!-- Modal footer -->
+                        <div class="modal-footer ">
+                            <!-- <div class="btnfooter">
+                                    <button type="button" class="btn btn-light modalformbutton "
+                                        data-bs-dismiss="modal">Cancel</button>
+                                    <button type="button" class="btn btn-success modalformbutton "
+                                        data-bs-dismiss="modal">Save</button>
+                                </div> -->
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
